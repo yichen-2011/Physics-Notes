@@ -1,0 +1,52 @@
+### 1. Definition of Mandelstam Variables
+Consider a two-body collision or scattering (2 → 2 process):
+     Reaction: A + B → C + D
+Four-momenta: p1 = A, p2 = B, p3 = C, p4 = D
+
+Mandelstam variables are defined as:
+     s (total energy squared)
+     s = (p1 + p2)^2
+Corresponds to the total energy squared in the center-of-mass (COM) frame 
+Determines whether the reaction has enough energy
+
+     t (momentum transfer)
+     t = (p1 - p3)^2 = (p2 - p4)^2
+Describes the "exchange" or scattering process A → C
+Directly related to the scattering angle θ in the COM frame
+
+     u (another momentum transfer)
+     u = (p1 - p4)^2 = (p2 - p3)^2
+Describes the "exchange" process A → D
+
+Relation:
+     s + t + u = m1^2 + m2^2 + m3^2 + m4^2
+
+Note: Knowing any two Mandelstam variables allows calculation of the third.
+
+### 2. Relation between t and Scattering Angle (COM Frame)
+In the COM frame:
+     Total momentum of A and B is zero
+     Scattering angle θ = angle of A → C
+     For elastic scattering (m1 = m3):
+     E1 = E3 → (E1 - E3)^2 = 0
+     |p1 - p3|^2 = 2 p^2 (1 - cos θ)
+     Therefore, t = - 2 p^2 (1 - cos θ)
+     The relation between t and θ is very useful in competition-style problems.
+
+### 3. u Variable and Crossed Channel
+     u = (p1 - p4)^2
+     In the COM frame: u = - 2 p^2 (1 + cos θ)
+     t and u symmetrically describe which particle is being exchanged
+In Feynman diagrams:
+     t-channel → t variable
+     u-channel → u variable
+
+### 4. Summary
+s → Determines if there is enough energy to produce new particles
+t → Momentum transfer corresponding to scattering angle θ
+u → Momentum transfer corresponding to crossed particle exchange
+In the COM frame:
+t = -2 p^2 (1 - cos θ)
+u = -2 p^2 (1 + cos θ)
+s = (E1 + E2)^2
+These formulas allow rapid calculation of scattering angles from t, or momentum transfer from angles, and are very useful for relativistic physics competitions.
