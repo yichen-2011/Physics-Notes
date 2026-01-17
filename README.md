@@ -1,2 +1,3 @@
 # Physics-Notes
 some exploration through physics....... Showing my thoughts......
+new to github, if there were any incorrect operate, pls tell me!
